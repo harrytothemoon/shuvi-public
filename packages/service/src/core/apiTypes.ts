@@ -125,6 +125,7 @@ export interface InternalConfig {
   analyze: boolean;
   typescript: { ignoreBuildErrors: boolean };
   proxy?: IProxyConfig;
+  disposeInactivePage: boolean;
   experimental: {
     parcelCss: boolean;
     preBundle: boolean;
